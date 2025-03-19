@@ -1,4 +1,4 @@
-import { View, Text, Map } from "@tarojs/components";
+import { View, Map } from "@tarojs/components";
 import { useLoad } from "@tarojs/taro";
 import "./index.less";
 
