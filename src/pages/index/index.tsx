@@ -1,12 +1,7 @@
 import { View, Map } from "@tarojs/components";
-import { useLoad } from "@tarojs/taro";
 import "./index.less";
 
 export default function Index() {
-  useLoad(() => {
-    console.log("Page loaded.");
-  });
-
   const handleMapError = (e) => {
     console.error("地图加载错误：", e.detail);
   };
